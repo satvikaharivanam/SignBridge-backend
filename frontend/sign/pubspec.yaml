@@ -1,0 +1,44 @@
+name: sign_bridge
+description: Sign Language Recognizer — ASL, ISL, CSL
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera
+  camera: ^0.10.5+9
+
+  # TFLite inference
+  tflite_flutter: ^0.10.4
+
+  # Image processing
+  image: ^4.1.3
+
+  # Text to Speech
+  flutter_tts: ^3.8.5
+
+  # HTTP for Flask API
+  http: ^1.2.0
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # UI
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/asl_model.tflite
+    - assets/models/class_names.json
