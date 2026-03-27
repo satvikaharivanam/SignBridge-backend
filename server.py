@@ -37,7 +37,7 @@ MODEL_DIR = os.environ.get("MODEL_DIR", "./model_output")
 MODEL_PATH = os.path.join(MODEL_DIR, "best_model.pth")
 
 # 🔥 REPLACE THIS WITH YOUR GOOGLE DRIVE FILE ID
-GDRIVE_FILE_ID = "YOUR_FILE_ID"
+GDRIVE_FILE_ID = "1DIVY6gzzhprL-1Ka-E2v30SbYz2n4PvI"
 
 PORT = int(os.environ.get("PORT", 10000))
 HOST = "0.0.0.0"
