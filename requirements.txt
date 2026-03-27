@@ -1,11 +1,11 @@
 flask==3.0.0
 flask-cors==4.0.0
 
-torch==2.2.2
-torchvision==0.17.2
+torch
+torchvision
 
-numpy==1.26.4
-pillow==10.2.0
-opencv-python-headless==4.9.0.80
+numpy
+pillow
+opencv-python-headless
 
-gdown==5.1.0
+gdown
